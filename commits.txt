@@ -1,0 +1,23 @@
+commit b8997ff8a6e05f18c9990101736215a366e3146c
+Author: Roberto Morales <roberto@morales.com.co>
+Date:   Fri Jul 29 11:20:17 2016 -0500
+
+    Creado comandos Git.txt, eliminado el archivo .rtf
+
+commit a317ffb28cc054db0281494e750f541ae5e611e8
+Author: Roberto Morales <roberto@morales.com.co>
+Date:   Fri Jul 29 11:09:37 2016 -0500
+
+    Comando checkout agregado
+
+commit ea20ef160c6a483b1fc20767efa72f477e569de4
+Author: Roberto Morales <roberto@morales.com.co>
+Date:   Fri Jul 29 11:04:37 2016 -0500
+
+    Nuevos comandos git
+
+commit 30fcad2cac02659750e53f16b62344eb1baeb0d3
+Author: Roberto Morales <roberto@morales.com.co>
+Date:   Fri Jul 29 11:02:02 2016 -0500
+
+    Iniciamos

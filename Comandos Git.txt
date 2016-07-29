@@ -1,9 +1,9 @@
 COMANDOS GIT
 
-git config —global user.name “Nombre”
-git config —global user.email “Email”
-git config —global color.ui true
-git config —global —list
+git config --global user.name “Nombre”
+git config --global user.email “Email”
+git config --global color.ui true
+git config --global --list
 
 git init
 git status
@@ -11,5 +11,10 @@ git add “file”
 git add -A (agregar todos)
 git commit -m “comentario”
 git log (lista de commits)
-git checkout(viajamos en el tiempo en los comits)
-git checkout master
+git checkout "codigo del commit" (viajamos en el tiempo en los comits)
+git checkout master (volver al último commit de la rama)
+git reset --soft "codigo del commit" (no toca el código)
+git reset --mixed "codigo del commit"
+git reset --hard "codigo del commit" (borra el código)
+git log > commits.txt
+git help "comando"
