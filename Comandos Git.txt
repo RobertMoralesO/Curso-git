@@ -28,4 +28,16 @@ git clone "url github"
 git remote add origin "url repositorio github"
 git remote -v (ver si está conectado con otro repositorio)
 git remote remove origin (quitar lo anterior)
-git push origin master.
+git push origin master
+
+Markdown
+git commit --amend -m "mensaje"
+git push origin master -f (subir a la fuerza)
+git tag v1.0 (tag ligera)
+git tag -a v1.0 -m "mensaje" (tag anotadas)
+git tag -a v1.0 -m "mensaje" "sha del commit"(tag anotadas)
+git push origin "tag"
+git push origin --tags (sube todos los tags)
+git branch -a (ramas ocultas)
+git fetch "origin"
+git merge "origin/master"
