@@ -22,3 +22,4 @@ git branch
 git branch "rama"
 git checkout "rama"
 git merge "rama"
+git brach -D
