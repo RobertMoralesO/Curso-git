@@ -22,4 +22,6 @@ git branch
 git branch "rama"
 git checkout "rama"
 git merge "rama"
-git brach -D
+git branch -D
+git checkout -b "rama" (mover y crear rama al mismo tiempo)
+git clone "url github"
