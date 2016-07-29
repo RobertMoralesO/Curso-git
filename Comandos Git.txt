@@ -25,3 +25,7 @@ git merge "rama"
 git branch -D
 git checkout -b "rama" (mover y crear rama al mismo tiempo)
 git clone "url github"
+git remote add origin "url repositorio github"
+git remote -v (ver si está conectado con otro repositorio)
+git remote remove origin (quitar lo anterior)
+git push origin master
