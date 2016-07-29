@@ -18,3 +18,5 @@ git reset --mixed "codigo del commit"
 git reset --hard "codigo del commit" (borra el código)
 git log > commits.txt
 git help "comando"
+git branch
+git brach "rama"
