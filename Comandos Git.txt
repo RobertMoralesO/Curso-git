@@ -1,0 +1,15 @@
+COMANDOS GIT
+
+git config —global user.name “Nombre”
+git config —global user.email “Email”
+git config —global color.ui true
+git config —global —list
+
+git init
+git status
+git add “file”
+git add -A (agregar todos)
+git commit -m “comentario”
+git log (lista de commits)
+git checkout(viajamos en el tiempo en los comits)
+git checkout master
