@@ -41,3 +41,8 @@ git push origin --tags (sube todos los tags)
 git branch -a (ramas ocultas)
 git fetch "origin"
 git merge "origin/master"
+git branch gh-pages
+ssh-keygen
+ls -rf (listar archivos ocultos)
+cat id_rsa.pub
+touch .gitignore
