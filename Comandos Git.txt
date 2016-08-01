@@ -39,10 +39,20 @@ git tag -a v1.0 -m "mensaje" "sha del commit"(tag anotadas)
 git push origin "tag"
 git push origin --tags (sube todos los tags)
 git branch -a (ramas ocultas)
-git fetch "origin"
+git fetch origin
 git merge "origin/master"
 git branch gh-pages
 ssh-keygen
 ls -rf (listar archivos ocultos)
 cat id_rsa.pub
 touch .gitignore
+digitalOcean (hosting con soporte ssh)
+ssh root@domain or root@ip
+gost for blogs
+git pull: git fech + git merge
+touch post-commit
+nano post-commit
+#!/bin/sh
+git push origin Develop
+ssh root@domain 'bash -s' < deployment.sh
+chmod +x post-commit
