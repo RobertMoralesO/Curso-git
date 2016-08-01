@@ -55,4 +55,4 @@ nano post-commit
 #!/bin/sh
 git push origin Develop
 ssh root@domain 'bash -s' < deployment.sh
-chmod +x post-commit
+chmod +x post-commit.
