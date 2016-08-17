@@ -1,4 +1,4 @@
-COMANDOS GIT
+﻿COMANDOS GIT
 
 git config --global user.name “Nombre”
 git config --global user.email “Email”
@@ -49,7 +49,7 @@ touch .gitignore
 digitalOcean (hosting con soporte ssh)
 ssh root@domain or root@ip
 gost for blogs
-git pull: git fech + git merge
+git pull origin : git fech + git merge
 touch post-commit
 nano post-commit
 #!/bin/sh
